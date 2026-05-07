@@ -8,7 +8,8 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: zh
-  favicon: assets/images/favicon.png
+  icon:
+    logo: material/notebook-outline
   features:
     - navigation.tabs
     - navigation.sections
