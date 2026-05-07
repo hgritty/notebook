@@ -1,0 +1,102 @@
+site_name: hgritty's Notebook
+site_description: A personal knowledge base for study notes, projects, tools, and long-term learning.
+site_url: https://hgritty.github.io/notebook/
+repo_url: https://github.com/hgritty/notebook
+repo_name: hgritty/notebook
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Math:
+      - math/index.md
+      - Linear Algebra: math/linear-algebra.md
+      - Probability: math/probability.md
+  - CS:
+      - cs/index.md
+      - Systems: cs/systems.md
+      - Algorithms: cs/algorithms.md
+  - AI:
+      - ai/index.md
+      - Machine Learning: ai/machine-learning.md
+      - LLM Notes: ai/llm-notes.md
+  - Quantum:
+      - quantum/index.md
+      - Quantum Information: quantum/quantum-information.md
+  - Tools:
+      - tools/index.md
+      - Website Workflow: tools/website-workflow.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  homepage: https://hgritty.github.io/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hgritty
+      name: GitHub
