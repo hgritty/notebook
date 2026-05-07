@@ -1,5 +1,6 @@
 :root {
-  --md-primary-fg-color: #3949ab;
+  --md-primary-fg-color: #315a72;
+  --md-primary-fg-color--dark: #244253;
   --md-accent-fg-color: #00897b;
 }
 
@@ -7,10 +8,67 @@
   font-weight: 750;
 }
 
+.md-typeset h2 {
+  margin-top: 1.8em;
+}
+
+.hgritty-hero {
+  margin: 0 0 1.4rem;
+  padding: clamp(1.3rem, 4vw, 2.3rem);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(49, 90, 114, 0.12), transparent 42%),
+    linear-gradient(315deg, rgba(0, 137, 123, 0.10), transparent 46%),
+    var(--md-default-bg-color);
+}
+
+.hgritty-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--md-accent-fg-color);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .hgritty-hero h1 {
+  max-width: 13em;
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.05;
+}
+
+.hgritty-lead {
+  max-width: 45rem;
+  margin: 1rem 0 1.25rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 1.05rem;
+}
+
+.hgritty-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+}
+
 .md-typeset .grid.cards > ul > li {
   border-radius: 8px;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: rgba(0, 137, 123, 0.45);
+  box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .md-typeset .hgritty-home-grid {
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
 }
