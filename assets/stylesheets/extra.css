@@ -1,0 +1,16 @@
+:root {
+  --md-primary-fg-color: #3949ab;
+  --md-accent-fg-color: #00897b;
+}
+
+.md-typeset h1 {
+  font-weight: 750;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 8px;
+}
+
+.md-typeset .hgritty-home-grid {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
