@@ -53,19 +53,49 @@
   margin: 0;
 }
 
-.md-typeset .grid.cards > ul > li {
+.hgritty-feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.hgritty-feature {
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
   transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
-.md-typeset .grid.cards > ul > li:hover {
+.hgritty-feature:hover {
   border-color: rgba(0, 137, 123, 0.45);
   box-shadow: 0 0.35rem 1.2rem rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
 
-.md-typeset .hgritty-home-grid {
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+.hgritty-feature-title {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.hgritty-feature-text {
+  display: block;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.note-box {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 0.22rem solid var(--md-accent-fg-color);
+  border-radius: 8px;
+  background: rgba(0, 137, 123, 0.08);
 }
 
 .md-typeset table:not([class]) {

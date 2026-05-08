@@ -2,62 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hgritty.github.io/notebook/</loc>
-         <lastmod>2026-05-07</lastmod>
+         <lastmod>2026-05-08</lastmod>
     </url>
     <url>
-         <loc>https://hgritty.github.io/notebook/about/</loc>
-         <lastmod>2026-05-07</lastmod>
+         <loc>https://hgritty.github.io/notebook/miao/</loc>
+         <lastmod>2026-05-08</lastmod>
     </url>
     <url>
-         <loc>https://hgritty.github.io/notebook/ai/</loc>
-         <lastmod>2026-05-07</lastmod>
+         <loc>https://hgritty.github.io/notebook/miao/content-guide/</loc>
+         <lastmod>2026-05-08</lastmod>
     </url>
     <url>
-         <loc>https://hgritty.github.io/notebook/ai/llm-notes/</loc>
-         <lastmod>2026-05-07</lastmod>
+         <loc>https://hgritty.github.io/notebook/miao/notebook-styles/</loc>
+         <lastmod>2026-05-08</lastmod>
     </url>
     <url>
-         <loc>https://hgritty.github.io/notebook/ai/machine-learning/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/cs/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/cs/algorithms/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/cs/systems/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/math/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/math/linear-algebra/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/math/probability/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/quantum/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/quantum/quantum-information/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/tools/</loc>
-         <lastmod>2026-05-07</lastmod>
-    </url>
-    <url>
-         <loc>https://hgritty.github.io/notebook/tools/website-workflow/</loc>
-         <lastmod>2026-05-07</lastmod>
+         <loc>https://hgritty.github.io/notebook/miao/website-workflow/</loc>
+         <lastmod>2026-05-08</lastmod>
     </url>
 </urlset>
