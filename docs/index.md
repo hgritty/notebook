@@ -1,83 +1,44 @@
 # hgritty's Notebook
 
-<section class="hgritty-hero" markdown>
+<section class="hgritty-hero">
   <p class="hgritty-kicker">Personal Knowledge Base</p>
-  <h1>Learn, connect, and keep the useful things alive.</h1>
+  <h1>把会反复用到的知识，放在一个能慢慢长大的地方。</h1>
   <p class="hgritty-lead">
-    This notebook is a long-term home for course notes, technical maps,
-    project records, reusable workflows, and ideas that deserve more than
-    a one-off blog post.
+    这里不是时间流博客，而是我的长期知识库：适合放课程笔记、资料索引、工具说明、
+    学习方法、项目文档，以及那些以后还会回来翻的东西。
   </p>
   <p class="hgritty-actions">
-    [Start with CS](cs/index.md){ .md-button .md-button--primary }
-    [Browse tools](tools/index.md){ .md-button }
+    <a class="md-button md-button--primary" href="miao/">进入妙妙屋</a>
+    <a class="md-button" href="miao/notebook-styles/">查看样式</a>
   </p>
 </section>
 
-!!! tip "Blog vs Notebook"
-    The blog is for dated reflections and life updates. The notebook is for
-    structured knowledge that will be revised, searched, linked, and reused.
+!!! note "这个站点怎么用"
+    根站 `hgritty.github.io` 继续放个人博客；这里的 `notebook` 用来放更稳定、更结构化的知识。
 
-## Knowledge Map
+## 现在的入口
 
-<div class="grid cards hgritty-home-grid" markdown>
-
--   :material-function-variant:{ .lg .middle } **Math**
-
-    ---
-
-    Linear algebra, probability, formulas, proofs, and problem patterns.
-
-    [:octicons-arrow-right-24: Enter Math](math/index.md)
-
--   :material-code-braces:{ .lg .middle } **CS**
-
-    ---
-
-    Systems, algorithms, networking, engineering notes, and course material.
-
-    [:octicons-arrow-right-24: Enter CS](cs/index.md)
-
--   :material-robot-outline:{ .lg .middle } **AI**
-
-    ---
-
-    Machine learning, LLMs, agents, paper reading, and implementation notes.
-
-    [:octicons-arrow-right-24: Enter AI](ai/index.md)
-
--   :material-atom:{ .lg .middle } **Quantum**
-
-    ---
-
-    Quantum information, quantum computing, concepts, and review material.
-
-    [:octicons-arrow-right-24: Enter Quantum](quantum/index.md)
-
--   :material-tools:{ .lg .middle } **Tools**
-
-    ---
-
-    Website workflows, commands, templates, scripts, and reusable setups.
-
-    [:octicons-arrow-right-24: Enter Tools](tools/index.md)
-
+<div class="hgritty-feature-list">
+  <a class="hgritty-feature" href="miao/">
+    <span class="hgritty-feature-title">妙妙屋</span>
+    <span class="hgritty-feature-text">实用小工具、网站维护流程、写作模板和 notebook 可用样式。</span>
+  </a>
 </div>
 
-## How This Site Is Organized
+## 适合放什么
 
-| Area | Good for | Example |
-| --- | --- | --- |
-| Blog | dated thoughts, reviews, personal logs | weekly review, diary, essay |
-| Notebook | structured notes and reusable knowledge | CS144 notes, quantum concepts |
-| Tools | repeatable workflows and commands | deploy steps, environment setup |
-| Projects | implementation records and demos | small apps, experiments |
+| 内容 | 放在这里的原因 |
+| --- | --- |
+| 课程笔记 | 可以按章节持续更新，便于搜索和复习。 |
+| 实用工具 | 比如部署命令、常用配置、模板、脚本说明。 |
+| 学习地图 | 把知识点之间的关系整理出来，而不是只按日期堆文章。 |
+| 项目文档 | 记录设计思路、踩坑过程、上线步骤。 |
 
-## Formula Check
+## 公式测试
 
-Inline math: \( E = mc^2 \)
+行内公式：\( E = mc^2 \)
 
-Block math:
+块级公式：
 
 \[
 \sum_{i=1}^{n} i = \frac{n(n+1)}{2}

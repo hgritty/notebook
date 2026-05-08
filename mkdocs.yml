@@ -37,25 +37,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Math:
-      - math/index.md
-      - Linear Algebra: math/linear-algebra.md
-      - Probability: math/probability.md
-  - CS:
-      - cs/index.md
-      - Systems: cs/systems.md
-      - Algorithms: cs/algorithms.md
-  - AI:
-      - ai/index.md
-      - Machine Learning: ai/machine-learning.md
-      - LLM Notes: ai/llm-notes.md
-  - Quantum:
-      - quantum/index.md
-      - Quantum Information: quantum/quantum-information.md
-  - Tools:
-      - tools/index.md
-      - Website Workflow: tools/website-workflow.md
-  - About: about.md
+  - 妙妙屋:
+      - miao/index.md
+      - Notebook 样式: miao/notebook-styles.md
+      - 内容维护指南: miao/content-guide.md
+      - 网站工作流: miao/website-workflow.md
 
 markdown_extensions:
   - admonition
